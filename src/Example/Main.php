@@ -10,9 +10,9 @@ use pocketmine\command\CommandSender;
 class Main extends PluginBase implements Listener {
 	
 	public function onEnable( ) {
-			    $this->getServer( )->getPluginManager( )->registerEvents($this, $this);
-				$this->saveDefaultConfig();
-		        $this->getLogger( )->info(TextFormat::GREEN . "[WindyRules]" .TextFormat::YELLOW. "Rules Enabled");
+	        $this->getServer( )->getPluginManager( )->registerEvents($this, $this);
+	       	$this->saveDefaultConfig();
+                $this->getLogger( )->info(TextFormat::GREEN . "Windy-Rules Enabled - Izual");
         }
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         $cmd = strtolower($command->getName());
