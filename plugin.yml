@@ -1,7 +1,13 @@
 name: Example
 author: MrIzual
 api: 2.0.0
-load: STARTUP
-main: Test\Main
+load: POSTWORLD
+main: Example\Main
 version: 1.0.0
 description: A Example
+commands:
+ rules:
+  description: "A Rules inforamtion"
+  usage: "/rules"
+  permission: windyrules.rules
+
