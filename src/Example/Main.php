@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener {
         switch ($cmd){
             case "rules":
                 if (!($sender instanceof Player)){
-                    $sender->sendMessage(TEXTFORMAT::GOLD . "--------[xWindyRulesx]--------");
+                    $sender->sendMessage(TEXTFORMAT::GOLD . "♦->WindyRules<-♦");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("rule1"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("rule2"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("rule3"));
@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener {
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
                 if ($player->hasPermission("windyrules.rules")){
-                    $sender->sendMessage("--------[xWindyRulesx]--------");
+                    $sender->sendMessage("♦->WindyRules<-♦");
                     $sender->sendMessage("- " . $this->getConfig()->get("rule1"));
                     $sender->sendMessage("- " . $this->getConfig()->get("rule2"));
                     $sender->sendMessage("- " . $this->getConfig()->get("rule3"));
