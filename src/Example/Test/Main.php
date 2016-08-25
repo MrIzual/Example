@@ -1,9 +1,9 @@
 <?php
 namespace Example;
 
-use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
+use pocketmine\utils\TextFormat;
 
 class Main extend PluginBase implements Listener {
         
