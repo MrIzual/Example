@@ -1,6 +1,6 @@
 name: Example
-api: 2.0.0
-main: Example\Test\Main.php
-version: 0.1
 author: MrIzual
+api: 2.0.0
+main: Example\Test\Main
+version: 1.0.0
 description: A Example
