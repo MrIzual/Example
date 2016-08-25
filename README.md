@@ -1,4 +1,8 @@
 ♦ Windy Rules ♦
-Made by izual 
+
+Made by Izual 
+
 You can change the rules in config.yml
+
 Usage : /rules
+
