@@ -1,8 +1,8 @@
-name: Example
+name: WindyRules
 author: MrIzual
 api: 2.0.0
 load: POSTWORLD
-main: Example\Main
+main: WindyRules\Main
 version: 1.0.0
 description: A Rules Plugin 
 commands:
