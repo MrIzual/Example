@@ -1,5 +1,5 @@
 <?php
-namespace Example;
+namespace WindyRules;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
